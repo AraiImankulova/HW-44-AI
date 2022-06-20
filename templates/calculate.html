@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculate</title>
+</head>
+<body>
+
+<h1>Calculate</h1>
+
+<form action="/calculate" method="post">
+    {% csrf_token %}
+
+    <p>Guess 4 numbers. Enter them separated with spaces:</p>
+    <form method="POST" action="/">
+        <input type="number" name="numbers"/>
+        <input type="submit" value="Send"/>
+    </form>
+    '''
+</form>
+{{ error }}
+{{num1}} {{operation}} {{num2}} = {{result}}
+</body>
+</html>
